@@ -1,4 +1,4 @@
-- Baixar o powershell: https://learn.microsoft.com/pt-br/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#winget 
+> Baixar o powershell: https://learn.microsoft.com/pt-br/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#winget 
 - NerdFont: https://www.nerdfonts.com/font-downloads
 - Oh My Posh: https://ohmyposh.dev/
 - Instalar PSReadline: Install-Module PSReadLine -AllowPrerelease -Force
