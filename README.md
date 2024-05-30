@@ -19,7 +19,7 @@ Get-Command oh-my-posh).Source
 ```
 Instalar as Fonts
 
-oh-my-posh font install
+oh-my-posh font install --user
 ```
 
 ```
