@@ -1,11 +1,15 @@
+# Referência
+
+ - [Oh My Posh](https://ohmyposh.dev/)
+ - [Windows Terminal Themes](https://windowsterminalthemes.dev)
+
+
 # Instalação PowerShell
 
 - Baixe e instale powershell: ```winget install --id Microsoft.Powershell --source winget```
 
 
-## Instalação OH MY POSH
-
-- Oh My Posh: https://ohmyposh.dev/
+# Instalação Oh My Posh
 
 
 ```
@@ -19,7 +23,7 @@ Get-Command oh-my-posh).Source
 ```
 Instalar as Fonts
 
-oh-my-posh font install --user
+oh-my-posh font install
 ```
 
 ```
@@ -39,3 +43,5 @@ Meu arquivo de config completo:
 Import-Module -Name Terminal-Icon
 oh-my-posh init pwsh --config 'C:\Users\SEU USER AQUI\AppData\Local\Programs\oh-my-posh\themes\quick-term.omp.json' | Invoke-Expression
 ```
+
+
