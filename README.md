@@ -1,11 +1,42 @@
-- Baixar o powershell: https://learn.microsoft.com/pt-br/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4#winget 
-- NerdFont: https://www.nerdfonts.com/font-downloads
+# Instalação PowerShell
+
+- Baixe e instale powershell: ```winget install --id Microsoft.Powershell --source winget```
+
+
+## Instalação OH MY POSH
+
 - Oh My Posh: https://ohmyposh.dev/
-- Instalar PSReadline: Install-Module PSReadLine -AllowPrerelease -Force
-- Instalar icones: Import-Module -Name Terminal-Icons 
-- Criar arquivo de config: .$PROFILE ou code $PROFILE 
+
+
+```
+Instalar Oh-My-Posh
+
+winget install JanDeDobbeleer.OhMyPosh -s winget
+$env:Path += ";C:\Users\user\AppData\Local\Programs\oh-my-posh\bin"
+Get-Command oh-my-posh).Source 
+```
+
+```
+Instalar as Fonts
+
+oh-my-posh font install
+```
+
+```
+
+Instalar PSReadLine e Icons
+
+Install-Module PSReadLine -AllowPrerelease -Force
+Install-Module -Name Terminal-Icons
+```
+
+
+# Criar arquivo de config: 
+
+notepad $PROFILE
 
 Meu arquivo de config completo:
-
-oh-my-posh init pwsh --config 'C:/Users/MUDE-AQUI-SEU-NOME/AppData/Local/Programs/oh-my-posh/themes/atomic.omp.json' | Invoke-Expression
-Import-Module -Name Terminal-Icons
+```
+Import-Module -Name Terminal-Icon
+oh-my-posh init pwsh --config 'C:\Users\SEU USER AQUI\AppData\Local\Programs\oh-my-posh\themes\quick-term.omp.json' | Invoke-Expression
+```
