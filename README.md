@@ -17,7 +17,7 @@ Instalar Oh-My-Posh
 
 winget install JanDeDobbeleer.OhMyPosh -s winget
 $env:Path += ";C:\Users\user\AppData\Local\Programs\oh-my-posh\bin"
-Get-Command oh-my-posh).Source 
+(Get-Command oh-my-posh).Source 
 ```
 
 ```
