@@ -23,7 +23,6 @@ oh-my-posh font install
 ```
 
 ```
-
 Instalar PSReadLine e Icons
 
 Install-Module PSReadLine -AllowPrerelease -Force
